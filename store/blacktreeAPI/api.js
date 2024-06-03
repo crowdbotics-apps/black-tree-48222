@@ -1,6 +1,6 @@
 import axios from "axios"
 const blacktreeAPI = axios.create({
-  baseURL: "https://black-tree-48222.botics.co",
+  baseURL: "https://transauto-48222.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
